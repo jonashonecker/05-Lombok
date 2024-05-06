@@ -1,13 +1,9 @@
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.util.List;
 
-@Data
+@Value
 @AllArgsConstructor
-@NoArgsConstructor
 @Builder
 public class Course {
     String id;

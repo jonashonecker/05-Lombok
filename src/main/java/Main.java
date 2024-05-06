@@ -15,14 +15,12 @@ public class Main {
         Teacher t2 = new Teacher("2", "Siegrid", List.of("Physik", "Chemie"));
 
         Course c1 = new Course("001", "Bildende Kunst", t1, List.of(s1, s2));
-        Course c2 = new Course();
 
         System.out.println(s1);
         System.out.println(s2);
         System.out.println(t1);
         System.out.println(t2);
         System.out.println(c1);
-        System.out.println(c2);
 
         System.out.println(s1.getId());
         System.out.println(c1.getStudentList());
