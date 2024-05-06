@@ -49,6 +49,10 @@ public class Main {
 
         System.out.println(t4);
 
+        Teacher t5 = t4.withSubject(List.of("hwfewhio", "hwifowehoi")).withName("Franz");
+
+        System.out.println(t5);
+
 
 
     }
