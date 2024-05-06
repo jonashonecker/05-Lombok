@@ -51,7 +51,8 @@ public class Main {
 
         System.out.println(t5);
 
-
+        Course testAvergaes = new Course("1", "JavaBootcamp",t1, List.of(s1, s2));
+        System.out.println(UniversityService.calcAverageGrade(testAvergaes));
 
     }
 }
