@@ -28,5 +28,28 @@ public class Main {
         System.out.println(c1.getStudentList());
         s1.setId("HALLO");
         System.out.println(s1.getId());
+
+        Teacher t3 = t2.withSubject(List.of("Französisch", "Griechisch"));
+        System.out.println(t3);
+
+        Course c3 = Course.builder()
+                .id("111")
+                .name("Sport")
+                .studentList(List.of(s1, s2))
+                .teacher(t1)
+                .build();
+
+        System.out.println(c3);
+
+        Teacher t4 = Teacher.builder()
+                .id("11")
+                .name("Biwof")
+                .subject(List.of("Informatik"))
+                .build();
+
+        System.out.println(t4);
+
+
+
     }
 }
